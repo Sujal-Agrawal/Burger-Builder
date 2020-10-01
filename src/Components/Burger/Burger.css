@@ -1,0 +1,35 @@
+.Burger{
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.ButtonContainer{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.Button{
+    background-color: red;
+    height: 40px;
+    border-radius: 20px;
+
+}
+@media (min-width:1000px) and (min-width:700px) {
+    .Burger{
+        width: 700px;
+        height: 600px;
+    }
+}
+
+@media (min-width:500px) and (min-width:401px) {
+    .Burger{
+        width: 350px;
+        height: 300px;
+    }
+}
