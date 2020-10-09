@@ -19,14 +19,16 @@ const Burger = props =>{
     }
     return(
         <div>
-        <div className={classes.Burger}>
-            <BurgerIngrediant type='BreadTop'/>
-            {tranformedSTUFFS}
-            <BurgerIngrediant type='BreadBottom'/>
-        </div>
-        <div className={classes.ButtonContainer}>
-        <button className={classes.Button} onClick={props.reset}>Reset Ingrediant</button>
-        </div>
+            <div className ={ classes.menu }>Menu<nav className = {classes.navigation}> nav .. ... </nav></div>
+            
+            <div className={classes.Burger}>
+                <BurgerIngrediant type='BreadTop'/>
+                {tranformedSTUFFS}
+                <BurgerIngrediant type='BreadBottom'/>
+            </div>
+            <div className={classes.ButtonContainer}>
+                <button className={classes.Button} onClick={props.reset}>Reset Ingrediant</button>
+            </div>
         </div>
     )
 

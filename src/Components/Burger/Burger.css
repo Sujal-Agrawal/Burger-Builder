@@ -20,6 +20,17 @@
     border-radius: 20px;
 
 }
+.navigation {
+    float: right;
+    background-color: lawngreen;
+    font-size: 25px;
+    border-color: lemonchiffon;
+}
+.menu {
+    background-color: lawngreen;
+    font-size: 25px;
+    border-color: lemonchiffon;
+}
 @media (min-width:1000px) and (min-width:700px) {
     .Burger{
         width: 700px;
